@@ -28,11 +28,11 @@ class App extends Component {
                     <Result key="scanResult" text={this.state.scanCode} />
                 ) : null}
 
-                <div>
-                    <input id="scanner_result" type="text" value={this.state.scanCode} />
-                    <input id="scanner_result" type="text" value={this.state.result} />
-                    <input id="scanner_result" type="text" value={this.state.scanSuccess} />
-                </div>
+                {/*<div>*/}
+                {/*    <input id="scanner_result" type="text" value={this.state.scanCode} />*/}
+                {/*    <input id="scanner_result" type="text" value={this.state.result} />*/}
+                {/*    <input id="scanner_result" type="text" value={this.state.scanSuccess} />*/}
+                {/*</div>*/}
 
                 <Modal show={this.state.modal} onHide={this._toggle}>
                     <Modal.Header closeButton="true" />
